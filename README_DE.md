@@ -49,8 +49,10 @@ Für die Verbindung von Juggluco mit Tasker gibt es zwei Möglichkeiten, entwede
 In den xDrip+ Einstellung den Eintrag Inter-App Einstellungen öffnen und wie folgt konfigurieren:
    * "Lokaler Broadcast" aktivieren
    * "Kompatible Broadcast" aktivieren
-   * "xDrip Web-Dienst" aktivieren ![xDrip+ settings](images/xDrip_InterAppSettings_DE.png)
-   * Beim Punkt "Identifiziere Empfänger" folgendes eintrage: ![xDrip+ settings](images/xDrip+Identify_receiver_DE.jpg)   
+   * "xDrip Web-Dienst" aktivieren 
+     <img src='images/xDrip_InterAppSettings_DE.png' width=300>
+   * Beim Punkt "Identifiziere Empfänger" folgendes eintragen: 
+    <img src='images/xDrip+Identify_receiver_DE.jpg' width=300>
 ```
      net.dinglisch.android.tasker
      net.dinglisch.android.taskerm

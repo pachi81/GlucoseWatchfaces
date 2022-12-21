@@ -48,8 +48,10 @@ To send the data from Juggluco to Tasker, you have two options, either you are u
 Go to xDrip+ setting and select Inter-app settings
    * Enable "Broadcast locally"
    * Enable "Compatible Broadcast"
-   * Enable "xDrip Web Service" ![xDrip+ settings](images/xDrip_InterAppSettings_EN.png)
-   * Set "Identify receiver" to: ![xDrip+ settings](images/xDrip+Identify_receiver_EN.jpg)   
+   * Enable "xDrip Web Service"
+     <img src='images/xDrip_InterAppSettings_EN.png' width=300>
+   * Set "Identify receiver" to:
+    <img src='images/xDrip+Identify_receiver_EN.jpg' width=300>
 ```
      net.dinglisch.android.tasker
      net.dinglisch.android.taskerm
