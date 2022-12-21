@@ -57,8 +57,8 @@ Go to xDrip+ setting and select Inter-app settings
 <img src='images/xDrip+Identify_receiver_EN.jpg' width=300>
 
 ```
-     net.dinglisch.android.tasker
-     net.dinglisch.android.taskerm
+net.dinglisch.android.tasker
+net.dinglisch.android.taskerm
 ```    
    * Download xDrip+ Tasker Profiles for [Watchmaker](TaskerProfiles/Watchmaker/xDrip_Broadcast_Watchmaker.prf.xml) or [Pujie](TaskerProfiles/Pujie/xDrip_Broadcast_Pujie.prf.xml)
    * Go to the download location of the tasker profile and select </br>share the file with tasker
