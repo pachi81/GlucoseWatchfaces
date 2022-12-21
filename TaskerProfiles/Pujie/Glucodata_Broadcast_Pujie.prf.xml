@@ -1,0 +1,434 @@
+<TaskerData sr="" dvi="1" tv="6.0.10">
+	<Profile sr="prof351" ve="2">
+		<cdate>1576184754072</cdate>
+		<clp>true</clp>
+		<edate>1671178902674</edate>
+		<id>351</id>
+		<mid0>352</mid0>
+		<nme>Glucodata Broadcast Pujie</nme>
+		<Event sr="con0" ve="2">
+			<code>180666867</code>
+			<pri>0</pri>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<alarm>0</alarm>
+					<alarm-type>java.lang.Integer</alarm-type>
+					<arrow>↑</arrow>
+					<arrow-type>java.lang.String</arrow-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>alarm: 0
+arrow: ↑
+delta: 0.06
+dexcomLabel: SingleUp
+glucose: 12.7
+rate: 2.04
+rateLabel: steigend
+rawValue: 229
+sensorId: XX0APDEFERC
+time: 1671177076529
+timeDiff: 58069
+unit: mmol/l</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<delta>0.06</delta>
+					<delta-type>java.lang.Float</delta-type>
+					<dexcomLabel>SingleUp</dexcomLabel>
+					<dexcomLabel-type>java.lang.String</dexcomLabel-type>
+					<glucose>12.7</glucose>
+					<glucose-type>java.lang.Float</glucose-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alarm
+Alarm
+Alarm value (0: no alarm, 6: high, 7: low)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arrow
+Arrow
+Unicode arrow of the direction&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%delta
+Delta
+Delta of current and previous glucose value (per minute)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%dexcomlabel
+DexcomLabel
+Rate label for Dexcom&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%glucose
+Glucose
+Glucose value in unit from Juggluco settings&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%rate
+Rate
+Rate of change of glucose&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ratelabel
+Rate Label
+Label for current rate&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%rawvalue
+Raw Value
+Glucose value in mg/dl&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%sensorid
+Sensor ID
+ID of the current active Sensor&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%time
+Time
+Time in msec&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%timediff
+TimeDiff
+Time difference between this and the previous value in msec&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%unit
+Unit
+Unit of the glucose value (mg/dl or mmol/l)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%err
+Error Code
+If there's an error, contains an error code&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%errmsg
+Error Message
+If there's an error, contains an error message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>de.michelinside.jugglucotaskerplugin.GlucodataValues</net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>
+					<net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS-type>java.lang.String</net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS-type>
+					<net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>de.michelinside.jugglucotaskerplugin.GlucodataValuesChangedRunner</net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>
+					<net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS-type>java.lang.String</net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS-type>
+					<net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE>true</net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE>
+					<net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE-type>java.lang.Boolean</net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE-type>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>60000</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT>
+					<net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>java.lang.Integer</net.dinglisch.android.tasker.extras.REQUESTED_TIMEOUT-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>arrow dexcomLabel rateLabel sensorId unit</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<rate>2.04</rate>
+					<rate-type>java.lang.Float</rate-type>
+					<rateLabel>steigend</rateLabel>
+					<rateLabel-type>java.lang.String</rateLabel-type>
+					<rawValue>229</rawValue>
+					<rawValue-type>java.lang.Integer</rawValue-type>
+					<sensorId>XX0APDEFERC</sensorId>
+					<sensorId-type>java.lang.String</sensorId-type>
+					<time>1671177076529</time>
+					<time-type>java.lang.Long</time-type>
+					<timeDiff>58069</timeDiff>
+					<timeDiff-type>java.lang.Long</timeDiff-type>
+					<unit>mmol/l</unit>
+					<unit-type>java.lang.String</unit-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">de.michelinside.jugglucotaskerplugin</Str>
+			<Str sr="arg2" ve="3">de.michelinside.jugglucotaskerplugin.GlucodataEvent</Str>
+			<Int sr="arg3" val="1"/>
+		</Event>
+	</Profile>
+	<Task sr="task352">
+		<cdate>1575461244700</cdate>
+		<edate>1671178902674</edate>
+		<id>352</id>
+		<nme>Glucodata Pujie</nme>
+		<pri>6</pri>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGTIME</Str>
+			<Str sr="arg1" ve="3">%TIME</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGTIMES</Str>
+			<Str sr="arg1" ve="3">%time/1000</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="1"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGDELTA</Str>
+			<Str sr="arg1" ve="3">%delta mmol</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%GLUCOSE</Str>
+			<Str sr="arg1" ve="3">%glucose %arrow</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act12" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%DELTA</Str>
+			<Str sr="arg1" ve="3">Delta: %delta mmol</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act13" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%BGTIMES</lhs>
+					<op>7</op>
+					<rhs>%BGLastValueTime</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act14" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>33626</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGVALUE</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGVALUE</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGVALUE mapped to [tskr_BGVALUE]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act15" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>3506</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGARROW</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGARROW</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGARROW mapped to [tskr_BGARROW]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>3506</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGDELTA</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGDELTA</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGDELTA mapped to [tskr_BGDELTA]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act17" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>33516</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGDELTAVAL</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGDELTAVAL</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGDELTAVAL mapped to [tskr_BGDELTAVAL]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>33510</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGTIMES</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGTIMES</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGTIMES mapped to [tskr_BGTIMES]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act19" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>3506</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%BGTIME</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%BGTIME</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%BGTIME mapped to [tskr_BGTIME]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGVALUE</Str>
+			<Str sr="arg1" ve="3">%glucose</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="1"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act20" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>33510</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%DELTA</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%DELTA</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%DELTA mapped to [tskr_DELTA]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act21" ve="7">
+			<code>2065917220</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE>33510</com.pujie.wristwear.pujieblack.INT_VERSION_CODE>
+					<com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>java.lang.Integer</com.pujie.wristwear.pujieblack.INT_VERSION_CODE-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>%GLUCOSE</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_NAME-type>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>%GLUCOSE</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE>
+					<com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>java.lang.String</com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>%GLUCOSE mapped to [tskr_GLUCOSE]</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>com.pujie.wristwear.pujieblack.STRING_TASKER_VARIABLE_VALUE</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.pujie.wristwear.pujieblack</Str>
+			<Str sr="arg2" ve="3">com.pujie.wristwear.pujieblack.tasker.EditVariableActivity</Str>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act22" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGLastValueTime</Str>
+			<Str sr="arg1" ve="3">%BGTIMES</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act23" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGARROW</Str>
+			<Str sr="arg1" ve="3">%arrow</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%delta</lhs>
+					<op>7</op>
+					<rhs>0</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGDELTAVAL</Str>
+			<Str sr="arg1" ve="3">+%delta</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGDELTAVAL</Str>
+			<Str sr="arg1" ve="3">%delta</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%BGUNIT</Str>
+			<Str sr="arg1" ve="3">%unit</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="2"/>
+			<Int sr="arg6" val="0"/>
+		</Action>
+		<Img sr="icn" ve="2">
+			<cls>com.pujie.wristwear.pujieblack.PujieBlackIntro</cls>
+			<pkg>com.pujie.wristwear.pujieblack</pkg>
+		</Img>
+	</Task>
+</TaskerData>
