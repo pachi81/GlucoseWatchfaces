@@ -49,9 +49,12 @@ Go to xDrip+ setting and select Inter-app settings
    * Enable "Broadcast locally"
    * Enable "Compatible Broadcast"
    * Enable "xDrip Web Service"
-     <img src='images/xDrip_InterAppSettings_EN.png' width=300>
+
+<img src='images/xDrip_InterAppSettings_EN.png' width=300>
+
    * Set "Identify receiver" to:
-    <img src='images/xDrip+Identify_receiver_EN.jpg' width=300>
+
+<img src='images/xDrip+Identify_receiver_EN.jpg' width=300>
 ```
      net.dinglisch.android.tasker
      net.dinglisch.android.taskerm
