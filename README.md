@@ -55,6 +55,7 @@ Go to xDrip+ setting and select Inter-app settings
    * Set "Identify receiver" to:
 
 <img src='images/xDrip+Identify_receiver_EN.jpg' width=300>
+
 ```
      net.dinglisch.android.tasker
      net.dinglisch.android.taskerm
