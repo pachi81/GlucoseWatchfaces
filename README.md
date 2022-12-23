@@ -39,7 +39,7 @@ To send the data from Juggluco to Tasker, you have two options, either you are u
   * Open settings in Juggluco and activate "Glucodata broadcast"
   * Install latest release for [Juggluco Tasker Plugin](https://github.com/pachi81/JugglucoTaskerPlugin/releases)
   * Open Juggluco Tasker Plugin and deactivate battery optimization
-  * Download Juggluco Tasker Profile for [Watchmaker](TaskerProfiles/Watchmaker/Glucodata_Broadcast_Watchmaker.prf.xml) or [Pujie](TaskerProfiles/Pujie/Glucodata_Broadcast_Pujie.prf.xml)
+  * Download Juggluco Tasker Profile for [Watchmaker](TaskerProfiles/Watchmaker/Glucodata_Broadcast_Watchmaker.prf.xml?raw=1) or [Pujie](TaskerProfiles/Pujie/Glucodata_Broadcast_Pujie.prf.xml?raw=1) (press long or use right mouse and select save link as...)
   * Go to the download location of the tasker profile and select </br>share the file with tasker
   * Check if the profile is enabled in tasker
   * Thats all, continue with [Watchmaker](#watchmaker) or [Pujie](#pujie)
@@ -60,7 +60,7 @@ Go to xDrip+ setting and select Inter-app settings
 net.dinglisch.android.tasker
 net.dinglisch.android.taskerm
 ```    
-   * Download xDrip+ Tasker Profiles for [Watchmaker](TaskerProfiles/Watchmaker/xDrip_Broadcast_Watchmaker.prf.xml) or [Pujie](TaskerProfiles/Pujie/xDrip_Broadcast_Pujie.prf.xml)
+   * Download xDrip+ Tasker Profiles for [Watchmaker](TaskerProfiles/Watchmaker/xDrip_Broadcast_Watchmaker.prf.xml?raw=1) or [Pujie](TaskerProfiles/Pujie/xDrip_Broadcast_Pujie.prf.xml?raw=1) (press long or use right mouse and select save link as...)
    * Go to the download location of the tasker profile and select </br>share the file with tasker
    * Check if the profile is enabled in tasker
    * Thats all, continue with [Watchmaker](#watchmaker) or [Pujie](#pujie)
