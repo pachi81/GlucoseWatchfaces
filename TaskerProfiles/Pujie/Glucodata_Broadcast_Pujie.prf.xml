@@ -2,71 +2,71 @@
 	<Profile sr="prof351" ve="2">
 		<cdate>1576184754072</cdate>
 		<clp>true</clp>
-		<edate>1671178902674</edate>
+		<edate>1675755701452</edate>
 		<id>351</id>
 		<mid0>352</mid0>
 		<nme>Glucodata Broadcast Pujie</nme>
 		<Event sr="con0" ve="2">
-			<code>180666867</code>
+			<code>1866749651</code>
 			<pri>0</pri>
 			<Bundle sr="arg0">
 				<Vals sr="val">
 					<alarm>0</alarm>
 					<alarm-type>java.lang.Integer</alarm-type>
-					<arrow>↑</arrow>
+					<arrow>↓</arrow>
 					<arrow-type>java.lang.String</arrow-type>
 					<com.twofortyfouram.locale.intent.extra.BLURB>alarm: 0
-arrow: ↑
-delta: 0.06
-dexcomLabel: SingleUp
-glucose: 12.7
-rate: 2.04
-rateLabel: steigend
-rawValue: 229
-sensorId: XX0APDEFERC
-time: 1671177076529
-timeDiff: 58069
+arrow: ↓
+delta: -0.2
+dexcomLabel: SingleDown
+glucose: 8.2
+rate: -2.91
+rateLabel: fallend
+rawValue: 147
+sensorId: XX0APDEFEC5
+time: 1675755690602
+timeDiff: 60834
 unit: mmol/l</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<delta>0.06</delta>
+					<delta>-0.2</delta>
 					<delta-type>java.lang.Float</delta-type>
-					<dexcomLabel>SingleUp</dexcomLabel>
+					<dexcomLabel>SingleDown</dexcomLabel>
 					<dexcomLabel-type>java.lang.String</dexcomLabel-type>
-					<glucose>12.7</glucose>
+					<glucose>8.2</glucose>
 					<glucose-type>java.lang.Float</glucose-type>
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alarm
 Alarm
-Alarm value (0: no alarm, 6: high, 7: low)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arrow
-Arrow
-Unicode arrow of the direction&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%delta
+Alarm von Juggluco (0: kein Alarm, 6: hoch, 7: niedrig)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arrow
+Pfeil
+Pfeil als Unicode String&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%delta
 Delta
-Delta of current and previous glucose value (per minute)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%dexcomlabel
-DexcomLabel
-Rate label for Dexcom&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%glucose
-Glucose
-Glucose value in unit from Juggluco settings&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%rate
-Rate
-Rate of change of glucose&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ratelabel
-Rate Label
-Label for current rate&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%rawvalue
-Raw Value
-Glucose value in mg/dl&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%sensorid
+Delta zwischen den aktuellen und den vorhergehenden Wert pro Minute.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%dexcomlabel
+Dexcom Bezeichnung
+Dexcom spezifische Bezeichnung (en)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%glucose
+Blutzuckerwert
+Blutzuckerwert in der Einheit, welche in Juggluco konfiguriert ist&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%rate
+Trend
+Trend des Blutzuckerwertes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;%ratelabel
+Trend als Text
+Trend des Blutzuckerwertes in Worten&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES6&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;%rawvalue
+Rohdaten
+Blutzuckerwert in der urprünglischen Einheit mg/dl&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES7&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;%sensorid
 Sensor ID
-ID of the current active Sensor&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%time
-Time
-Time in msec&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%timediff
-TimeDiff
-Time difference between this and the previous value in msec&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%unit
-Unit
-Unit of the glucose value (mg/dl or mmol/l)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%err
+ID des aktuell verwendeten Sensors&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES8&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;%time
+Zeitpunkt
+Zeitpunkt des Blutzuckerwertes in Millisekunden (seit 1.1.1970)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES9&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;%timediff
+Zeitdifferenz
+Zeit in Millisekunden zwichen den aktuell und letzten empfangenen Wert&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES10&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;%unit
+Einheit
+Einheit des Glucose Wertes (mg/dl oder mmol/l)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES11&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;%err
 Error Code
 If there's an error, contains an error code&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES12&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;%errmsg
 Error Message
 If there's an error, contains an error message&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES13&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-					<net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>de.michelinside.jugglucotaskerplugin.GlucodataValues</net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>
+					<net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>de.michelinside.glucodatahandler.GlucodataValues</net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS>
 					<net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS-type>java.lang.String</net.dinglisch.android.tasker.extras.ACTION_INPUT_CLASS-type>
-					<net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>de.michelinside.jugglucotaskerplugin.GlucodataValuesChangedRunner</net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>
+					<net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>de.michelinside.glucodatahandler.GlucodataValuesChangedRunner</net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS>
 					<net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS-type>java.lang.String</net.dinglisch.android.tasker.extras.ACTION_RUNNER_CLASS-type>
 					<net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE>true</net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE>
 					<net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE-type>java.lang.Boolean</net.dinglisch.android.tasker.extras.EXTRA_WAS_CONFIGURED_BEFORE-type>
@@ -76,30 +76,30 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<rate>2.04</rate>
+					<rate>-2.91</rate>
 					<rate-type>java.lang.Float</rate-type>
-					<rateLabel>steigend</rateLabel>
+					<rateLabel>fallend</rateLabel>
 					<rateLabel-type>java.lang.String</rateLabel-type>
-					<rawValue>229</rawValue>
+					<rawValue>147</rawValue>
 					<rawValue-type>java.lang.Integer</rawValue-type>
-					<sensorId>XX0APDEFERC</sensorId>
+					<sensorId>XX0APDEFEC5</sensorId>
 					<sensorId-type>java.lang.String</sensorId-type>
-					<time>1671177076529</time>
+					<time>1675755690602</time>
 					<time-type>java.lang.Long</time-type>
-					<timeDiff>58069</timeDiff>
+					<timeDiff>60834</timeDiff>
 					<timeDiff-type>java.lang.Long</timeDiff-type>
 					<unit>mmol/l</unit>
 					<unit-type>java.lang.String</unit-type>
 				</Vals>
 			</Bundle>
-			<Str sr="arg1" ve="3">de.michelinside.jugglucotaskerplugin</Str>
-			<Str sr="arg2" ve="3">de.michelinside.jugglucotaskerplugin.GlucodataEvent</Str>
+			<Str sr="arg1" ve="3">de.michelinside.glucodatahandler</Str>
+			<Str sr="arg2" ve="3">de.michelinside.glucodatahandler.GlucodataEvent</Str>
 			<Int sr="arg3" val="1"/>
 		</Event>
 	</Profile>
 	<Task sr="task352">
 		<cdate>1575461244700</cdate>
-		<edate>1671178902674</edate>
+		<edate>1675755578161</edate>
 		<id>352</id>
 		<nme>Glucodata Pujie</nme>
 		<pri>6</pri>
