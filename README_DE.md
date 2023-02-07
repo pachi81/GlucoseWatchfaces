@@ -8,7 +8,7 @@ GlucoseWatchfaces <!-- omit in toc -->
 - [Konfiguration](#konfiguration)
   - [Juggluco](#juggluco)
     - [Juggluco in Verbindung mit xDrip+](#juggluco-in-verbindung-mit-xdrip)
-    - [Juggluco in Verbindung mit dem Juggluco Tasker Plugin](#juggluco-in-verbindung-mit-dem-juggluco-tasker-plugin)
+    - [Juggluco in Verbindung mit dem GlucoDataHandler](#juggluco-in-verbindung-mit-dem-glucodatahandler)
   - [xDrip+](#xdrip)
   - [Watchmaker](#watchmaker)
   - [Pujie](#pujie)
@@ -17,6 +17,8 @@ GlucoseWatchfaces <!-- omit in toc -->
 ## Einleitung
 
 Diese Anleitung beschreibt die Verbindung der Apps [Juggluco](https://play.google.com/store/apps/details?id=tk.glucodata) und [xDrip+](https://github.com/NightscoutFoundation/xDrip) zu den Watchfaces für [Watchmaker](https://play.google.com/store/apps/details?id=slide.watchFrenzy) und [Pujie](https://play.google.com/store/apps/details?id=com.pujie.wristwear.pujieblack).
+
+Wenn sie lieber ein eigenes Watchface nutzen wollen und dieses Complications unterstützt, können sie auch nur [GlucoDataHandler](https://github.com/pachi81/GlucoDataHandler) auf der Uhr benutzen, welches verschiedene Complications für die Werte von Juggluco zur Verfügung stellt.
 
 Hier sind meine derzeitigen Watchfaces für [Watchmaker](https://getwatchmaker.com/user/HkH1oOOtB) und [Pujie](images/Pujie_Black_Watchfaces.jpg) zu sehen.
 
@@ -30,16 +32,16 @@ Für Watchmake gibt es weitere Watchfaces von [FreDiabetics](https://getwatchmak
 
 ## Konfiguration
 ### Juggluco
-Für die Verbindung von Juggluco mit Tasker gibt es zwei Möglichkeiten, entweder über xDrip+ oder über mein [Juggluco Tasker Plugin](https://github.com/pachi81/JugglucoTaskerPlugin):
+Für die Verbindung von Juggluco mit Tasker gibt es zwei Möglichkeiten, entweder über xDrip+ oder über mein [GlucoDataHandler](https://github.com/pachi81/GlucoDataHandler):
 
 #### Juggluco in Verbindung mit xDrip+
   * In den "settings" von Juggluco den Haken bei "Send to xDrip" setzen
   * Dann die Einstellungen für [xDrip+](#xdrip) vornehmen
 
-#### Juggluco in Verbindung mit dem Juggluco Tasker Plugin
+#### Juggluco in Verbindung mit dem GlucoDataHandler
   * In den "settings" von Juggluco den Haken bei "Glucodata broadcast" setzen
-  * Das letzte Release von meinem [Juggluco Tasker Plugin](https://github.com/pachi81/JugglucoTaskerPlugin/releases) installieren
-  * Die App "Juggluco Tasker Plugin" starten und die Batterie Optimierung deaktiveren
+  * Das letzte Release von meinem [GlucoDataHandler](https://github.com/pachi81/GlucoDataHandler/releases) installieren
+  * Die App "GlucoDataHandler" starten und die Batterie Optimierung deaktiveren
   * Das Juggluco Tasker Profile für [Watchmaker](TaskerProfiles/Watchmaker/Glucodata_Broadcast_Watchmaker.prf.xml?raw=1) oder [Pujie](TaskerProfiles/Pujie/Glucodata_Broadcast_Pujie.prf.xml?raw=1) herunterladen (entweder lange drücken oder rechte Maustaste und Speichern unter... auswählen)
   * Entweder direkt _öffnen mit_ auswählen und Tasker als Ziel wählen<br/> oder Tasker öffnen und auf dem PROFILE Tab lange drücken und _Importiere ein Profil_ auswählen
   * In Tasker prüfen, ob das Profil aktiviert ist
