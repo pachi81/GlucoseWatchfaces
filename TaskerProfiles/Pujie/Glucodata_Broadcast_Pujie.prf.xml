@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="6.1.32">
-	<Profile sr="prof351" ve="2">
-		<cdate>1576184754072</cdate>
-		<edate>1686911019881</edate>
-		<id>351</id>
+	<Profile sr="prof394" ve="2">
+		<cdate>1703059946633</cdate>
+		<edate>1703059975004</edate>
+		<id>394</id>
 		<mid0>352</mid0>
 		<nme>Glucodata Broadcast Pujie</nme>
 		<Event sr="con0" ve="2">
@@ -10,32 +10,32 @@
 			<pri>0</pri>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<alarm>6</alarm>
+					<alarm>2</alarm>
 					<alarm-type>java.lang.Integer</alarm-type>
 					<arrow>→</arrow>
 					<arrow-type>java.lang.String</arrow-type>
-					<com.twofortyfouram.locale.intent.extra.BLURB>alarm: 6
+					<com.twofortyfouram.locale.intent.extra.BLURB>alarm: 2
 arrow: →
-delta: -1.0
+delta: 0.5
 dexcomLabel: Flat
-glucose: 166.0
-rate: -0.26
+glucose: 196.0
+rate: -0.31
 rateLabel: gleichbleibend
-rawValue: 166
-sensorId: XX0E8ARRTVV
-time: 1686909694409
-timeDiff: 62798
+rawValue: 196
+sensorId: WUSEL_DUSEL
+time: 1703059831656
+timeDiff: 117666
 unit: mg/dl</com.twofortyfouram.locale.intent.extra.BLURB>
 					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
-					<delta>-1.0</delta>
+					<delta>0.5</delta>
 					<delta-type>java.lang.Float</delta-type>
 					<dexcomLabel>Flat</dexcomLabel>
 					<dexcomLabel-type>java.lang.String</dexcomLabel-type>
-					<glucose>166.0</glucose>
+					<glucose>196.0</glucose>
 					<glucose-type>java.lang.Float</glucose-type>
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%alarm
 Alarm
-Alarm von Juggluco (0: kein Alarm, 6/14: hoch, 7/15: niedrig)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arrow
+Alarm von Juggluco (0: kein Alarm, 6/14: sehr hoch, 2/10: hoch, 3/11: tief, 7/15: sehr tief)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%arrow
 Pfeil
 Pfeil als Unicode String&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%delta
 Delta
@@ -75,17 +75,17 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
 					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
 					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
-					<rate>-0.26</rate>
+					<rate>-0.31</rate>
 					<rate-type>java.lang.Float</rate-type>
 					<rateLabel>gleichbleibend</rateLabel>
 					<rateLabel-type>java.lang.String</rateLabel-type>
-					<rawValue>166</rawValue>
+					<rawValue>196</rawValue>
 					<rawValue-type>java.lang.Integer</rawValue-type>
-					<sensorId>XX0E8ARRTVV</sensorId>
+					<sensorId>WUSEL_DUSEL</sensorId>
 					<sensorId-type>java.lang.String</sensorId-type>
-					<time>1686909694409</time>
+					<time>1703059831656</time>
 					<time-type>java.lang.Long</time-type>
-					<timeDiff>62798</timeDiff>
+					<timeDiff>117666</timeDiff>
 					<timeDiff-type>java.lang.Long</timeDiff-type>
 					<unit>mg/dl</unit>
 					<unit-type>java.lang.String</unit-type>
@@ -98,7 +98,7 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 	</Profile>
 	<Task sr="task352">
 		<cdate>1575461244700</cdate>
-		<edate>1686911019881</edate>
+		<edate>1703059449041</edate>
 		<id>352</id>
 		<nme>Glucodata Pujie</nme>
 		<pri>6</pri>
@@ -115,7 +115,7 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 		<Action sr="act1" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%glucose</Str>
-			<Str sr="arg1" ve="3">.0</Str>
+			<Str sr="arg1" ve="3">\.0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -238,7 +238,7 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 		<Action sr="act2" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%delta</Str>
-			<Str sr="arg1" ve="3">.0</Str>
+			<Str sr="arg1" ve="3">\.0</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -461,7 +461,7 @@ If there's an error, contains an error message&lt;/_array_net.dinglisch.android.
 			<Int sr="arg6" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
-			<cls>com.pujie.wristwear.pujieblack.PujieBlackIntro</cls>
+			<cls>com.pujie.wristwear.pujieblack.PujieIntro</cls>
 			<pkg>com.pujie.wristwear.pujieblack</pkg>
 		</Img>
 	</Task>
